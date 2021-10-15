@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    >
+
+
+        <TextView
+            android:id="@+id/tvNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="InvalidId"
+            android:text="@string/nombre"
+            android:textSize="@dimen/dimNombre"
+            android:textStyle="bold"
+            />
+
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+    android:paddingTop="5dp"
+    >
+
+<ImageView
+        android:id="@+id/imgvTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/phone"
+        android:paddingRight="10dp"
+        android:onClick="llamar"
+    tools:ignore="OnClick,UsingOnClickInXml" />
+
+    <TextView
+        android:id="@+id/tvTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/telefono"
+        android:textSize="@dimen/dimDetalle"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:onClick="enviarMail"
+        >
+
+        <ImageView
+            android:id="@+id/imgvEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/email"
+            android:paddingRight="10dp"
+            />
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:textSize="@dimen/dimDetalle"
+        android:layout_gravity="center"
+
+        />
+    </LinearLayout>
+</LinearLayout>

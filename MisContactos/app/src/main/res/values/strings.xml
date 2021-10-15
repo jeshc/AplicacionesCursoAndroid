@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MisContactos</string>
+    <string name="nombre">José Pérez</string>
+    <string name="telefono">55-6677-8899</string>
+    <string name="email">jose@ula.com</string>
+    <string-array name="contactos">
+
+    </string-array>
+</resources>
