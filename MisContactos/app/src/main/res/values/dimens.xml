@@ -4,5 +4,5 @@
 
     <dimen name="dimNombre">33dp</dimen>
     <dimen name="dimDetalle">20dp</dimen>
-
+    <dimen name="cortnerRadius">4dp</dimen>
 </resources>
