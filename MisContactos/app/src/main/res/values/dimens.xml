@@ -2,7 +2,9 @@
 <resources>
 
 
-    <dimen name="dimNombre">33dp</dimen>
+    <dimen name="dimNombre">30dp</dimen>
     <dimen name="dimDetalle">20dp</dimen>
-    <dimen name="cortnerRadius">4dp</dimen>
+    <dimen name="cortnerRadius">8dp</dimen>
+    <dimen name="espacio_texto_card">7dp</dimen>
+    <dimen name="margen_card">7dp</dimen>
 </resources>

@@ -1,6 +1,7 @@
 package coursera.android.semana2;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -21,9 +22,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         listaContactos = findViewById(R.id.rvContactos);
+        /*
         LinearLayoutManager llm = new LinearLayoutManager(this);
         llm.setOrientation(LinearLayoutManager.VERTICAL);
-        listaContactos.setLayoutManager(llm);
+        */
+        GridLayoutManager glm = new GridLayoutManager(this, 2);
+        listaContactos.setLayoutManager(glm);
 
         crearLista();
         inicilizarAdaptador();
@@ -55,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void inicilizarAdaptador(){
-        ContactoAdaptador adaptador = new ContactoAdaptador(contacts);
+        ContactoAdaptador adaptador = new ContactoAdaptador(contacts,MainActivity.this);
         listaContactos.setAdapter(adaptador);
 
     }
