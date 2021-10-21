@@ -1,6 +1,7 @@
 package coursera.android.semana2;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -20,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        Toolbar miActionBar = findViewById(R.id.miActionBAr);
         listaContactos = findViewById(R.id.rvContactos);
         /*
         LinearLayoutManager llm = new LinearLayoutManager(this);
