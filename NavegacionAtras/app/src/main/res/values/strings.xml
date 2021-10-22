@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">NavegacionAtras</string>
     <string name="mensaje_main">Hola mundo</string>
+    <string name="mensaje_actividad_dos">Segunda actividad</string>
     <string name="texto_boton">Ir segundo activity</string>
 
 </resources>

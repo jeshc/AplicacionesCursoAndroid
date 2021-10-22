@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <dimen name="tam_texto">15dp</dimen>
-    <dimen name="padding_texto">13dp</dimen>
+    <dimen name="tam_texto">15sp</dimen>
+    <dimen name="padding_texto">13sp</dimen>
     <dimen name="tam_texto_segunda">25dp</dimen>
 </resources>
